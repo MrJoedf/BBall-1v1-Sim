@@ -24,7 +24,4 @@ void game::playGame() {
         } else if ((this->p2Points) < (this->p1Points)) {
             cout << this->p1.getName() << " WINS " << this->p1Points << "-" << p2Points<<endl;
         }
-
-
-        cout << "YEP";
     }
