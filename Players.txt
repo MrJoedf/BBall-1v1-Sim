@@ -1,0 +1,5 @@
+LeBron James, 87, 76, 83
+Kawhi Leonard, 84, 84, 93
+Steph Curry, 84, 94, 79
+Kevin Durant, 88, 87, 83
+Kobe Bryant, 87, 82, 86
