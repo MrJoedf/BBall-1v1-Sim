@@ -28,7 +28,7 @@ int main() {
     }
     playerCount.close();
 
-    player Players[10];
+    player Players[numPlayers];
     player tempPlayer;
     playerFile.open("Players.txt");
 
