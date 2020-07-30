@@ -58,8 +58,8 @@ int main() {
 
     cin>>n1;
     cin>>n2;
-    //cout<<Players[n1-1].playPoint(Players[n1-1],Players[n2-1]);
+
     game Game(Players[n1-1], Players[n2-1]);
-    //cout<<Players[n1-1].playPoint(Players[n1-1],Players[n2-1]);
+   
     return 0;
 }
