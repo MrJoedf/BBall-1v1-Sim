@@ -51,8 +51,7 @@ int main() {
     cout << "Welcome to 1v1 BasketBall Sim!" << endl;
     cout<<"Choose 2 players: "<<endl;
 
-    int n1;
-    int n2;
+    int n1, n2;
 
     printPlayers(Players,numPlayers);
 
