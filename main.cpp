@@ -4,6 +4,7 @@
 #include "player.h"
 #include "game.h"
 using namespace std;
+
 void printPlayers(player Roster[], int size){
     cout<<"\nPLAYERS:\n";
     for(int i=0; i<size; i++){
@@ -15,21 +16,17 @@ int main() {
     string line;
     int numPlayers = 0;
 
-    string playerName;
-    string player3P;
-    string player2P;
-    string playerD;
+    string playerName, player2P, player3P, string playerD;
 
-    ifstream playerFile;
-    ifstream playerCount;
+    ifstream playerFile, playerCount;
+    
     playerCount.open("Players.txt");
     while (getline(playerCount, line)) {
         numPlayers++;
     }
     playerCount.close();
 
-    player Players[numPlayers];
-    player tempPlayer;
+    player Players[numPlayers], tempPlayer;
     playerFile.open("Players.txt");
 
     //Getting players from file and adding to array
